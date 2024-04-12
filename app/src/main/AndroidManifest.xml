@@ -21,6 +21,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BMICalculator">
+
+        </activity>
+        <activity android:name=".CaloriesCalculator">
+
+        </activity>
+
+        <activity android:name=".Recipes">
+
+        </activity>
+
+        <activity android:name=".ButterChicken">
+
+        </activity>
+
+        <activity android:name=".ScrambledEggs">
+
+        </activity>
     </application>
 
 </manifest>

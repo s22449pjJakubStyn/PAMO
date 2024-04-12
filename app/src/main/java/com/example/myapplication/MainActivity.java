@@ -1,6 +1,7 @@
 //Author: Jakub Styn
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,11 +15,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+    Button main_button;
+    Button calories_button;
 
-    private EditText heightTextView;
-    private EditText weightTextView;
-    private Button calculate_button;
-    private TextView result;
+    Button recipes_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,22 +26,31 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        heightTextView = (EditText) findViewById(R.id.heightText);
-        weightTextView = (EditText) findViewById(R.id.weightText);
-        calculate_button = findViewById(R.id.calculateBMIButton);
-        result = (TextView) findViewById(R.id.resultBMI);
+        main_button = findViewById(R.id.main_button);
+        calories_button = findViewById(R.id.calories_button);
+        recipes_button = findViewById(R.id.recipes_button);
 
-        calculate_button.setOnClickListener(new View.OnClickListener() {
+        main_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                float height = Float.parseFloat(heightTextView.getText().toString());
-                float weight = Float.parseFloat(weightTextView.getText().toString());
+                Intent bmiIntent = new Intent(MainActivity.this, BMICalculator.class);
+                startActivity(bmiIntent);
+            }
+        });
 
+        calories_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent caloriesIntent = new Intent(MainActivity.this, CaloriesCalculator.class);
+                startActivity(caloriesIntent);
+            }
+        });
 
-                Float BMI = weight / (height * height);
-
-                result.setText(String.valueOf(BMI));
-
+        recipes_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent recipesIntent = new Intent(MainActivity.this, Recipes.class);
+                startActivity(recipesIntent);
             }
         });
 

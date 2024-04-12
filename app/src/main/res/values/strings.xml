@@ -1,3 +1,56 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="age_years">Age (years)</string>
+    <string name="calculate_ppm">Calculate PPM</string>
+    <string name="ingridients1">Marynata: \n
+        500 g filetu z piersi kurczaka \n
+    1 łyżka tartego imbiru \n
+    2 ząbki czosnku \n
+    sól i pieprz \n
+    1 łyżka garam masala \n
+    2 łyżki soku z cytryny \n
+    1 łyżka oliwy \n
+    1/2 szklanki jogurtu \n
+\n
+        Sos: \n
+    2 łyżki masła klarowanego lub oleju kokosowego lub oliwy \n
+    1 cebula \n
+    przyprawy: 1 łyżka garam masala, po 1/2 łyżeczki mielonej kurkumy, \n
+        kminu rzymskiego, pieprzu cayenne i kolendry, \n
+        szczypta cynamonu, sól
+    1/4 szklanki orzechów nerkowca (lub 2 łyżki mielonych migdałów) \n
+    400 g (1 puszka) krojonych pomidorów \n
+    1/2 szklanki bulionu drobiowego lub wody \n
+    1/2 szklanki śmietanki kremówki 30% \n
+\n
+        Do podania z: \n
+    ryż długoziarnisty \n
+    świeża kolendra \n
+    opcjonalnie jogurt, chlebki naan \n
+    </string>
+    <string name="making1">Filety z piersi kurczaka oczyścić z błonek i kostek i pokroić na ok. 2 - 3 cm kawałki. Natrzeć startym imbirem i czosnkiem, doprawić solą, pieprzem i garam masalą. Skropić sokiem z cytryny, polać oliwą i włożyć do miski. Dodać jogurt i dokładnie wymieszać. Przykryć i odstawić do lodówki na minimum 2 godziny a najlepiej na całą noc. Orzechy nerkowca zalać wodą i również zostawić do namoczenia na całą noc.
+    Wyjąć kurczaka z lodówki i ocieplić w temperaturze pokojowej. W garnku rozgrzać łyżkę masła klarowanego i zeszklić pokrojoną cebulę. Dodać przyprawy oraz orzechy nerkowca i chwilę podsmażyć mieszając, następnie dodać pomidory oraz bulion. Wymieszać, zagotować i zostawić na małym gazie pod przykryciem na ok. 10 minut. Zmiksować na gładki sos w blenderze stojącym.
+    W międzyczasie na patelni rozgrzać drugą łyżkę masła klarowanego i obsmażyć zamarynowane kawałki kurczaka. Obsmażonego kurczaka przenieść do zmiksowanego sosu i całość zagotować. Śmietankę zahartować (dodać najpierw kilka łyżek gorącego sosu i wymieszać), następnie wlać wszystko do garnka z sosem i kurczakiem i wymieszać. Gotować jeszcze ok. 3 minuty na małym ogniu. Podawać z ryżem i kolendrą.
+    </string>
+    <string name="ingredients2">
+        Cebula - 0,25 szt. \n
+        Jajko - 2 szt. \n
+        Masło - 1 łyżka \n
+        Pieprz czarny - 1 szczypta \n
+        Sól - 1 szczypta \n
+        Szczypior cebuli - 2 łyżki \n
+        Boczek wędzony w plastrach - 20 g \n
+    </string>
+<string name="making2">
+    KROK 1: PODSMAŻAMY CEBULĘ I BOCZEK \n
+Cebulę siekamy w drobną kostkę, boczek kroimy na mniejsze kawałki. Na patelni roztapiamy masło. Pokrojoną cebulę wrzucamy na patelnię i czekamy, aż się zeszkli. Do podsmażonej cebuli dodajemy boczek i lekko podsmażamy. \n
+
+KROK 2: ROZBIJAMY JAJKA \n
+Jajka wbijamy do miseczki i doprawiamy solą oraz pieprzem, a następnie rozbijamy za pomocą trzepaczki. \n
+
+KROK 3: SMAŻYMY I PODAJEMY JAJECZNICĘ \n
+Wlewamy jajka na patelnię i cały czas mieszamy. Kiedy jajka się zetną, przekładamy je do miseczki. Siekamy szczypiorek i posypujemy nim gotową jajecznicę. \n
+</string>
 </resources>
