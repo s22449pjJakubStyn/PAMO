@@ -44,7 +44,7 @@ public class BMICalculator extends AppCompatActivity {
 
                 float height_cm = height/100;
 
-                Float BMI = weight / (height_cm * height_cm);
+                Float BMI = countBMI(weight, height_cm);
 
                 result.setText(String.valueOf(BMI));
 
@@ -64,5 +64,9 @@ public class BMICalculator extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public static float countBMI(float weight, float height_cm) {
+        return weight / (height_cm * height_cm);
     }
 }
