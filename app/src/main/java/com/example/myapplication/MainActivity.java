@@ -5,8 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
 
     Button recipes_button;
 
+    Button chart_button;
+
+    Button shopping_button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         main_button = findViewById(R.id.main_button);
         calories_button = findViewById(R.id.calories_button);
         recipes_button = findViewById(R.id.recipes_button);
+        chart_button = findViewById(R.id.chart);
+        shopping_button = findViewById(R.id.shopping);
 
         main_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +55,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent recipesIntent = new Intent(MainActivity.this, Recipes.class);
                 startActivity(recipesIntent);
+            }
+        });
+
+        chart_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent chartIntent = new Intent(MainActivity.this, BMIChart.class);
+                startActivity(chartIntent);
+            }
+        });
+
+        shopping_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent shoppingIntent = new Intent(MainActivity.this, ShoppingList.class);
+                startActivity(shoppingIntent);
             }
         });
 
